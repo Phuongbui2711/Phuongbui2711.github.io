@@ -66,10 +66,15 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest lab ever created
+        #quote: >
+        #  This is probably one of the greatest lab ever created
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way to learn <mark>Cloud Computing</mark>
+          I started this project as a way to learn <mark>Cloud Computing</mark>. This is a simple static resume built by Jekyll and hosted on Github (a cloud service platform).
+          The steps to build this website are as follow:
+          Step 2 - Create Repository
+          ### Step 2 - Create Repository
+Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
+Create a repository on GitHub to hold your files and host your resume. You can find out how to do that here
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
