@@ -74,7 +74,38 @@ content:
           Step 2 - Create Repository
           ### Step 2 - Create Repository
 Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
-Create a repository on GitHub to hold your files and host your resume. You can find out how to do that here
+Create a repository on GitHub to hold your files and host your resume. You can find out how to do that here.
+You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
+
+_config.yml
+This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume.
+A full example of the _config.yml can be found here
+
+Content
+The main content for you resume will all come under the content property in the _config.yml file. This can be quite complex and a good understanding on YAML will be helpful here.
+
+Content will contain an array of sections, there are currently 2 types of layouts for content sections, text and list.
+
+text is a basic layout that contains markdown content.
+list is a the standard layout that is used for things like Education and Experience.
+Note: The description or content areas (fields starting with | #) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting and tables. You can find a good Markdown cheatsheet here
+
+Additional links
+If you would like to add more than the predefined social links in the config file, then you can use the additional_links field to add as many additional links with urls and font awesome icons as you wish.
+
+Dark Mode
+Dark mode is configured via _config.yml
+
+darkmode: true (options: true, false, never)
+When dark mode is true the site will show the dark theme for everyone
+When dark mode is false the site will not show the dark theme, but it will still respect the users device preferences
+When dark mode is never the site will never be shown in the dark theme
+
+Heading Anchors
+You can link to section titles using a Markdown anchor link, e.g.: [About me](#about-me). The link after the # is the slug version of the title.
+
+assets/main.scss
+Add any css changes or additions you want to make here after the line @import 'modern-resume-theme';
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
