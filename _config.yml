@@ -127,8 +127,7 @@ content:
           
           #### **Heading Anchors**
 
-          You can link to section titles using a Markdown anchor link, e.g.: [About me](#about-me). The link after the # is the slug version of the title.
-          You can link to section titles using a Markdown anchor link, e.g.: `[About me](#about-me)`. The link after the `#` is the slug version of the title.
+          You can link to section titles using a Markdown anchor link, e.g.: [About me](#about-me) (`[About me](#about-me)`). The link after the # is the slug version of the title.
           
           #### `assets/main.scss`
           
