@@ -70,28 +70,25 @@ content:
         #quote: >
         #  This is probably one of the greatest lab ever created
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way to learn <mark>Cloud Computing</mark>. This is a simple static resume built by Jekyll and hosted on Github (a cloud service platform).
-          The steps to build this website are as follow:
+          I started this project as a way to learn <mark>Cloud Computing</mark>. This is a simple static resume built by [Jekyll](https://github.com/daattali/beautiful-jekyll) and hosted on Github (a cloud service platform). You can check out how to create Jekyll Theme Gem [here](https://medium.com/@jameshamann/creating-your-own-jekyll-theme-gem-1f8180a0e4b8) and more reference for this resume template [here](https://github.com/sproogen/modern-resume-theme). Within this lab, I will briefly introduce the steps to build this website as follow:
           
           #### **Create Repository**  
           
-          Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
+          Create a repository on GitHub to host the resume. You can find out how to do that [here](https://pages.github.com/).
           
           #### `_config.yml`
           
-          This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume. A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
+          This will contain all of the main configuration for the resume such as your name, email, social media links, and about me content.
           
           #### **Content**
           
-          The main content for you resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding on [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful here.
-          
-          Content will contain an array of sections, there are currently 2 types of layouts for content sections, text and list.
+          The main content for the resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding of [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful. Content will contain an array of sections, there are currently 2 types of layouts for content sections, **text** and **list**.
           
           **text** is a basic layout that contains markdown content.  
           
-          **list** is a the standard layout that is used for things like *Education* and *Experience*.
+          **list** is the standard layout used for sections like *Education* and *Experience*.
           
-          Below is a the full list of content options.
+          Below is the full list of content options:
           
           ```
           content:
@@ -120,21 +117,20 @@ content:
               Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
           ```
           
-          ***Note:** The description or content areas (fields starting with `| #`) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting and tables. You can find a good [Markdown cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)*
+          ***Note:** The description or content areas (fields starting with `| #`) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting, and tables. You can find more on Markdown cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)*
           
           #### **Additional links**
           
-          If you would like to add more than the predefined social links in the config file, then you can use the `additional_links` field to add as many additional links with urls and font awesome icons as you wish.
+          If you would like to add more than the predefined social links in the config file, then you can use the `additional_links` field to add as many additional links with URLs and font-awesome icons as you wish.
           
-          #### **Dark Mode**
+          #### **Dark mode**
           
           Dark mode is configured via `_config.yml`  
           ```
           darkmode: true (options: true, false, never)
           ```
-          
           When dark mode is `true` the site will show the dark theme for everyone  
-          When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
+          When dark mode is `false` the site will not show the dark theme, but it will still respect the user's device preferences  
           When dark mode is `never` the site will never be shown in the dark theme
           
           #### **Heading Anchors**
