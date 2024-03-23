@@ -81,7 +81,7 @@ content:
 
 
 
-          ### `_config.yml`
+          #### `_config.yml`
           
           This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume. A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
           
