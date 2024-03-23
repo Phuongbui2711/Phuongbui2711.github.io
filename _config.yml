@@ -70,7 +70,6 @@ content:
         #quote: >
         #  This is probably one of the greatest lab ever created
         description: | # this will include new lines to allow paragraphs
-          ### Lab 3 report
           I started this project as a way to learn <mark>Cloud Computing</mark>. This is a simple static resume built by [Jekyll](https://github.com/daattali/beautiful-jekyll) and hosted on Github (a cloud service platform). You can check out how to create Jekyll Theme Gem [here](https://medium.com/@jameshamann/creating-your-own-jekyll-theme-gem-1f8180a0e4b8) and more reference for this resume template [here](https://github.com/sproogen/modern-resume-theme). Within this lab, I will briefly introduce the steps to build this website as follow:
           
           #### **Create Repository**  
