@@ -50,14 +50,14 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Welcome to my personal blog. My name is Phuong, I'm a junior year Computer Science student.
   
-  #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Cloud  Computing Lab 3
         #link: github.com/sproogen
         # link_text: Project Website
         #additional_links:
@@ -70,6 +70,8 @@ content:
         #quote: >
         #  This is probably one of the greatest lab ever created
         description: | # this will include new lines to allow paragraphs
+        ----
+        
           I started this project as a way to learn <mark>Cloud Computing</mark>. This is a simple static resume built by [Jekyll](https://github.com/daattali/beautiful-jekyll) and hosted on Github (a cloud service platform). You can check out how to create Jekyll Theme Gem [here](https://medium.com/@jameshamann/creating-your-own-jekyll-theme-gem-1f8180a0e4b8) and more reference for this resume template [here](https://github.com/sproogen/modern-resume-theme). Within this lab, I will briefly introduce the steps to build this website as follow:
           
           #### **Create Repository**  
@@ -82,14 +84,7 @@ content:
           
           #### **Content**
           
-          The main content for the resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding of [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful. Content will contain an array of sections, there are currently 2 types of layouts for content sections, **text** and **list**.
-          
-          **text** is a basic layout that contains markdown content.  
-          
-          **list** is the standard layout used for sections like *Education* and *Experience*.
-          
-          Below is the full list of content options:
-          
+          The main content for the resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding of [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful. Content will contain an array of sections, there are currently 2 types of layouts for content sections, **text** and **list**. **text** is a basic layout that contains markdown content. **list** is the standard layout used for sections like *Education* and *Experience*. Below is the full list of content options:
           ```
           content:
           - title: Section Name
@@ -116,7 +111,6 @@ content:
         
               Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
           ```
-          
           ***Note:** The description or content areas (fields starting with `| #`) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting, and tables. You can find more on Markdown cheatsheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)*
           
           #### **Additional links**
