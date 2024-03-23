@@ -49,7 +49,7 @@ darkmode: true
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Welcome to my personal blog. My name is Phuong, I'm a junior year Computer Science student.
- #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
